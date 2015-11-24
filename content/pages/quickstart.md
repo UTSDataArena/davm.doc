@@ -1,5 +1,8 @@
 date: 2015-10-27
-title: 3D Pipeline
+title: Quickstart
+
+3D Pipeline
+===========
 
 This is a guide  to load 3D data into the Data Arena virtual machine.
 The format we consider here are object models in [.ply,]({filename}/pages/userguide.md) .obj and other formats.
@@ -11,3 +14,12 @@ A few examples are provided in `/local/examples`.
 
 To adjust your model, you can add several parameters, such as positioning of object and camera, adding a shader for textures or changing the navigation behaviour.
 See other examples or the [API documentation](http://127.0.0.1:8001) for more details.
+
+drishti
+=======
+
+Motion Capture
+==============
+
+Parallel Coordinates
+====================
