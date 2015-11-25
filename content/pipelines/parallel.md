@@ -1,2 +1,0 @@
-date: 2015-10-27
-title: Parallel Coordinates
