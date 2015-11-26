@@ -1,5 +1,5 @@
-Title: Pipelines
-Category: Reference
+title: Pipelines
+sortorder: 04
 
 Data Arena Pipelines and you.
 

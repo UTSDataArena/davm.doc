@@ -1,8 +1,8 @@
-date: 2015-10-27
 title: Quickstart
+sortorder: 02
 
-3D Pipeline
-===========
+3D
+==
 
 This is a guide  to load 3D data into the Data Arena virtual machine.
 The format we consider here are object models in [.ply,]({filename}/pages/userguide.md) .obj and other formats.

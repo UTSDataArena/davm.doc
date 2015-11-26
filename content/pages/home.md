@@ -1,10 +1,14 @@
-Title: Home
-URL:
+title: Home
 save_as: index.html
+url: index.html
+sortorder: 01
 
-This is the Data Arena Virtual Machine documentation. Read on to learn more.
+This is the [UTS Data Arena](http://www.uts.edu.au/partners-and-community/initiatives/data-arena/overview) Virtual Machine documentation, read the [User Guide]({filename}userguide.md) to learn more about the project.
 
-* [User Guide]({filename}userguide.md)
-* [Reference]({filename}reference.md)
-* [Pipelines]({filename}pipelines.md)
-* [Software]({filename}software.md)
+Some of our examples are included and can be started [here](http://127.0.0.1:8002)
+TODO: add cherrypy port
+
+You can use one of the existing pipelines explained in [Quickstart]({filename}quickstart.md) to visualize your data.
+If your data does not fit into an existing [Pipeline]({filename}pipelines.md), read more about it and create your own based on our framework.
+More information about the backend is provided in [Software]({filename}software.md).
+You are welcome to [share](https://github.com/UTSDataArena) your work, that we can build more pipelines and make data visualization easier.
