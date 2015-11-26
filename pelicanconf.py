@@ -12,7 +12,7 @@ TIMEZONE = 'Australia/Sydney'
 
 DEFAULT_LANG = u'en'
 
-THEME = 'notmyidea'
+THEME = 'fresh'
 
 PAGE_ORDER_BY = 'sortorder'
 
