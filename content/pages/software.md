@@ -1,15 +1,6 @@
 title: Software
 sortorder: 05
 
-This is the software that is used in the Virtual Machine:
-
-* Gentoo Linux
-* KDE
-* Omegalib
-* Awesomium
-* Equalizer
-* Git
-
 In the backend of the Data Arena, we run the same software stack as in the virtual machine.
 That makes it possible to abstract from the backend and prototype your visualization in the virtual machine, instead of the Data Arena.
 If you still require some information about the software, we give a short overview on this page.
