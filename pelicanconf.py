@@ -12,8 +12,11 @@ TIMEZONE = 'Australia/Sydney'
 
 DEFAULT_LANG = u'en'
 
-THEME = 'notmyidea'
+THEME = 'fresh'
 
+PAGE_ORDER_BY = 'sortorder'
+
+STATIC_PATHS = ['images']
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -22,19 +25,9 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
 LINKS = ()
-#LINKS = (('Pelican', 'http://getpelican.com/'),
-#         ('Python.org', 'http://python.org/'),
-#         ('Jinja2', 'http://jinja.pocoo.org/'),
-#         ('You can modify those links in your config file', '#'),)
 
 # Social widget
 SOCIAL = ()
-#SOCIAL = (('You can add links in your config file', '#'),
-#          ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = 10
-
-# Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
