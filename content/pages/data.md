@@ -46,6 +46,40 @@ An optional keyword to describe the data in the header is *comment* followed by 
 
 Extensive documentation can be found [here](http://paulbourke.net/dataformats/ply/).
 
+### OBJ
+
+Another popular geometery format is the old Wavefront .obj file format.
+It's about as simple as .ply format, which is why it's still used today.
+There's a [wikipedia entry](https://en.wikipedia.org/wiki/Wavefront_.obj_file) for .obj
+
+This (below) is what a simple box looks like in .obj format.
+The size of the box is 1 unit in X, 2 units high in Y, and 3 units deep in Z.
+One corner of the box is at the origin (0,0,0). A box has 8 corners (vertices 'v')
+and has 6 sides (faces 'f').
+
+	# File exported by Houdini 15.0.244.16 (www.sidefx.com)
+	# 8 points
+	# 24 vertices
+	# 6 primitives
+	# Bounds: [0, 0, 0] to [1, 2, 3]
+	g
+	v 0 0 0
+	v 1 0 0
+	v 1 0 3
+	v 0 0 3
+	v 0 2 0
+	v 1 2 0
+	v 1 2 3
+	v 0 2 3
+	g
+	f 2 1 5 6
+	f 3 2 6 7
+	f 4 3 7 8
+	f 1 4 8 5
+	f 3 4 1 2
+	f 6 5 8 7
+
+
 ## Spreadsheet
 
 Data in form of tables is usually organized with Microsoft Excel or LibreOffice.
