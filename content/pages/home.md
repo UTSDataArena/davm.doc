@@ -12,6 +12,6 @@ If your data does not fit into an existing [Pipeline]({filename}pipelines.md), r
 More information about the backend is provided in [Software]({filename}software.md).
 You are welcome to [share](https://github.com/UTSDataArena) your work, that we can build more pipelines and make data visualization easier.
 
-<a href="http://127.0.0.1:8002">
+<a href="http://127.0.0.1:8002" target="_blank">
 <img width="100%" alt="Data Arena" src="/images/banner.jpeg" />
 </a>
