@@ -31,11 +31,14 @@ Now you can play (Space) the scene, jump between frames (f: forward, b:backward)
 ## Parallel Coordinates
 
 This pipeline creates a parallel coordinates diagram from a CSV file.
-First, export your spreadsheet as CSV, include the column header and escape non numeric values.
-*Mind, that only numeric values can span a dimension.*
+First, export your spreadsheet as CSV, include the column header and escape non numeric values. *Mind data values can be numeric or categorical.*
+
 
 With the command `python /local/examples/parallel/builder/builder.py PATH_TO_CSV GROUP_COLUMN` you create the diagram.
 The GROUP_COLUMN specifies the coloring in the diagram (values of this column are grouped and should appear in multiple rows).
+
+If there are spaces in your column names, specify them using quotes. An example of this: 'Market Share', or 'Year To Date Average'.
+
 
 In the working directory you will find a new directory named after the CSV file.
 You can view the website `index.html` locally or run `orun LoadParallel.py` to launch the Data Arena environment.

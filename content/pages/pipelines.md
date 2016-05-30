@@ -15,5 +15,14 @@ Currently, we provide the piplines in the [Quickstart]({filename}quickstart.md).
 If your data is compliant with one of the pipelines, you can use one of the examples in `/local/examples`.
 Copy the `LoadX.py` and adjust the parameters and start the visualization with `orun LoadYOURDATA.py`.
 
+
 ## How can I share my pipeline changes?
 In order to create more pipelines for different data or visualizations, we encourage you to contribute your results to our public [repository](https://github.com/UTSDataArena).
+
+
+## Example of a pipeline
+
+Parrallel Coordinates is one of the pipelines we use at the Data Arena. [Example of Parrallel Coordinates](http://127.0.0.1:8002).
+
+To load your data into Parrallel Coordinates or another pipeline, take a look at the information in our [Quickstart guide,]({filename}quickstart.md)
+
